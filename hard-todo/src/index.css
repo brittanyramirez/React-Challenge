@@ -1,0 +1,23 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full-page background */
+body {
+  min-height: 100vh;
+  font-family: "Times New Roman", serif;
+
+  background-image: url("./assets/_\ \(5\).jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* React root */
+#root {
+  min-height: 100vh;
+}
